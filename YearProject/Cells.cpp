@@ -11,17 +11,3 @@ Cells::Cells(int coords[2], Game game, int parent_genome[64], sf::Color color)
 	Cells parent = parent;
 	sf::Color color = color;*/
 }
-//#include "core.h"
-//extern const unsigned int genome_lenth;
-//extern int null_genome[64];
-//class Cells {
-//
-//public:
-//	Cells(int coords[2], Game game, int parent_genome[64] = null_genome, sf::Color color = sf::Color(20, 150, 0)) {
-//		
-//	}
-//	
-//	
-//	
-//	
-//};

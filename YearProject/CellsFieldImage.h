@@ -6,7 +6,6 @@ private:
 	sf::RectangleShape background;
 public:
 	CellsFieldImage();
-
 	sf::Sprite get_image();
 	void add(sf::RectangleShape image, sf::RectangleShape background, int x, int y);
 };

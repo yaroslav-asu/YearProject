@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "Game.h"
 
+extern int null_genome[64];
+
 class Cells
 {
 private:

@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "CellsFieldImage.h"
+
 class Game {
 private:
 	sf::RenderWindow window;
@@ -8,4 +9,5 @@ private:
 public:
 	Game();
 	void start();
+	void generate_cells();
 };
